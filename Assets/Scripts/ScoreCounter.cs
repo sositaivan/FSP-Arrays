@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ScoreCounter : MonoBehaviour
 {
-    public float txtScore;
+    public Text txtScore;
     public int Score;
     
     // Start is called before the first frame update
